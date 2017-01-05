@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/e/workspace/codeblock/Restweb/dbms/include/Dbms.h
+iostream
+-
+pqxx/pqxx
+-
+
+/mnt/e/workspace/codeblock/Restweb/dbms/main.cpp
+include/Dbms.h
+/mnt/e/workspace/codeblock/Restweb/dbms/include/Dbms.h
+string
+-
+
+/mnt/e/workspace/codeblock/Restweb/dbms/src/Dbms.cpp
+../include/Dbms.h
+/mnt/e/workspace/codeblock/Restweb/dbms/include/Dbms.h
+

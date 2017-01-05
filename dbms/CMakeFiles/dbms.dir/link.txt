@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/dbms.dir/main.o CMakeFiles/dbms.dir/src/Dbms.o  -o dbms -rdynamic -lboost_system -lcrypto -lssl -lcpprest -lpqxx -lpq 

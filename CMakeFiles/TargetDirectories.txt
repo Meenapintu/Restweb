@@ -1,0 +1,3 @@
+/mnt/e/workspace/codeblock/Restweb/CMakeFiles/edit_cache.dir
+/mnt/e/workspace/codeblock/Restweb/CMakeFiles/rebuild_cache.dir
+/mnt/e/workspace/codeblock/Restweb/CMakeFiles/blackjackserver.dir
