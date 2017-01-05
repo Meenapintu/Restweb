@@ -60,39 +60,39 @@ CMAKE_SOURCE_DIR = /mnt/e/workspace/codeblock/Restweb
 CMAKE_BINARY_DIR = /mnt/e/workspace/codeblock/Restweb
 
 #=============================================================================
-# Target rules for target CMakeFiles/blackjackserver.dir
+# Target rules for target CMakeFiles/restserver.dir
 
 # All Build rule for target.
-CMakeFiles/blackjackserver.dir/all:
-	$(MAKE) -f CMakeFiles/blackjackserver.dir/build.make CMakeFiles/blackjackserver.dir/depend
-	$(MAKE) -f CMakeFiles/blackjackserver.dir/build.make CMakeFiles/blackjackserver.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/e/workspace/codeblock/Restweb/CMakeFiles --progress-num=1,2,3 "Built target blackjackserver"
-.PHONY : CMakeFiles/blackjackserver.dir/all
+CMakeFiles/restserver.dir/all:
+	$(MAKE) -f CMakeFiles/restserver.dir/build.make CMakeFiles/restserver.dir/depend
+	$(MAKE) -f CMakeFiles/restserver.dir/build.make CMakeFiles/restserver.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/e/workspace/codeblock/Restweb/CMakeFiles --progress-num=1,2,3 "Built target restserver"
+.PHONY : CMakeFiles/restserver.dir/all
 
 # Include target in all.
-all: CMakeFiles/blackjackserver.dir/all
+all: CMakeFiles/restserver.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/blackjackserver.dir/rule: cmake_check_build_system
+CMakeFiles/restserver.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/e/workspace/codeblock/Restweb/CMakeFiles 3
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/blackjackserver.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/restserver.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/e/workspace/codeblock/Restweb/CMakeFiles 0
-.PHONY : CMakeFiles/blackjackserver.dir/rule
+.PHONY : CMakeFiles/restserver.dir/rule
 
 # Convenience name for target.
-blackjackserver: CMakeFiles/blackjackserver.dir/rule
+restserver: CMakeFiles/restserver.dir/rule
 
-.PHONY : blackjackserver
-
-# clean rule for target.
-CMakeFiles/blackjackserver.dir/clean:
-	$(MAKE) -f CMakeFiles/blackjackserver.dir/build.make CMakeFiles/blackjackserver.dir/clean
-.PHONY : CMakeFiles/blackjackserver.dir/clean
+.PHONY : restserver
 
 # clean rule for target.
-clean: CMakeFiles/blackjackserver.dir/clean
+CMakeFiles/restserver.dir/clean:
+	$(MAKE) -f CMakeFiles/restserver.dir/build.make CMakeFiles/restserver.dir/clean
+.PHONY : CMakeFiles/restserver.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/restserver.dir/clean
 
 .PHONY : clean
 

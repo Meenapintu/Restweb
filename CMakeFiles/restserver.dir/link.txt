@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/restserver.dir/main.cpp.o CMakeFiles/restserver.dir/src/handler.cpp.o  -o restserver -lboost_system -lcrypto -lssl -lcpprest 
