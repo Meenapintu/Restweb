@@ -14,7 +14,9 @@ project structure
 
 
 How to compile :
+
 cmake .
+
 make
 
 {#dbms folder is a independent project right now to access database}
