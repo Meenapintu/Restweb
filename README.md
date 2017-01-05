@@ -11,3 +11,10 @@ project structure
 [main.cpp]
 [include/handler.h]
 [src/hander.cpp]
+
+
+How to compile :
+cmake .
+make
+
+{#dbms folder is a independent project right now to access database}
