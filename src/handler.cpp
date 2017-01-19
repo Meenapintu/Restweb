@@ -31,7 +31,7 @@ void handler::handle_error(pplx::task<void>& t)
 
 
 //
-// A GET of the dealer resource produces a list of existing tables.
+// Get Request 
 //
 void handler::handle_get(http_request message)
 {
@@ -51,8 +51,7 @@ void handler::handle_get(http_request message)
 };
 
 //
-// A POST of the dealer resource creates a new table and returns a resource for
-// that table.
+// A POST request
 //
 void handler::handle_post(http_request message)
 {
@@ -64,7 +63,7 @@ void handler::handle_post(http_request message)
 };
 
 //
-// A DELETE of the player resource leaves the table.
+// A DELETE request
 //
 void handler::handle_delete(http_request message)
 {
@@ -77,7 +76,7 @@ void handler::handle_delete(http_request message)
 
 
 //
-// A PUT to a table resource makes a card request (hit / stay).
+// A PUT request 
 //
 void handler::handle_put(http_request message)
 {
