@@ -12,18 +12,18 @@ using namespace http::experimental::listener;
 
 
 
-std::unique_ptr<handler> g_httpDealer;
+std::unique_ptr<handler> g_httpHandler;
 
 void on_initialize(const string_t& address)
 {
-    // Build our listener's URI from the configured address and the hard-coded path "blackjack/dealer"
+
 
     uri_builder uri(address);
-    //uri.append_path(U("blackjack/dealer"));
+  
 
     auto addr = uri.to_uri().to_string();
-    g_httpDealer = std::unique_ptr<handler>(new handler(addr));
-    g_httpDealer->open().wait();
+     g_httpHandler = std::unique_ptr<handler>(new handler(addr));
+     g_httpHandler->open().wait();
 
     ucout << utility::string_t(U("Listening for requests at: ")) << addr << std::endl;
 
@@ -32,15 +32,10 @@ void on_initialize(const string_t& address)
 
 void on_shutdown()
 {
-    g_httpDealer->close().wait();
+     g_httpHandler->close().wait();
     return;
 }
 
-//
-// To start the server, run the below command with admin privileges:
-// BlackJack_Server.exe <port>
-// If port is not specified, will listen on 34568
-//
 #ifdef _WIN32
 int wmain(int argc, wchar_t *argv[])
 #else
