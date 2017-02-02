@@ -12,3 +12,4 @@ add_executable(restserver
 
 set(CMAKE_SHARED_LINKER_FLAGS "-lboost_system -lcrypto -lssl -lcpprest")
 target_link_libraries(restserver ${Casablanca_LIBRARIES} ${CMAKE_SHARED_LINKER_FLAGS} )
+

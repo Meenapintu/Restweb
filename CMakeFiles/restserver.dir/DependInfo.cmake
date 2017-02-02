@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/mnt/e/workspace/codeblock/Restweb/main.cpp" "/mnt/e/workspace/codeblock/Restweb/CMakeFiles/restserver.dir/main.cpp.o"
-  "/mnt/e/workspace/codeblock/Restweb/src/handler.cpp" "/mnt/e/workspace/codeblock/Restweb/CMakeFiles/restserver.dir/src/handler.cpp.o"
+  "/mnt/e/workspace/Restweb/main.cpp" "/mnt/e/workspace/Restweb/CMakeFiles/restserver.dir/main.cpp.o"
+  "/mnt/e/workspace/Restweb/src/handler.cpp" "/mnt/e/workspace/Restweb/CMakeFiles/restserver.dir/src/handler.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -6,13 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/mnt/e/workspace/codeblock/Restweb/include/handler.h
+/mnt/e/workspace/Restweb/include/handler.h
 iostream
 -
 stdafx.h
-/mnt/e/workspace/codeblock/Restweb/include/stdafx.h
+/mnt/e/workspace/Restweb/include/stdafx.h
 
-/mnt/e/workspace/codeblock/Restweb/include/stdafx.h
+/mnt/e/workspace/Restweb/include/stdafx.h
 string
 -
 vector
@@ -32,35 +32,35 @@ Windows.h
 sys/time.h
 -
 cpprest/json.h
-/mnt/e/workspace/codeblock/Restweb/include/cpprest/json.h
+/mnt/e/workspace/Restweb/include/cpprest/json.h
 cpprest/http_listener.h
-/mnt/e/workspace/codeblock/Restweb/include/cpprest/http_listener.h
+/mnt/e/workspace/Restweb/include/cpprest/http_listener.h
 cpprest/uri.h
-/mnt/e/workspace/codeblock/Restweb/include/cpprest/uri.h
+/mnt/e/workspace/Restweb/include/cpprest/uri.h
 cpprest/asyncrt_utils.h
-/mnt/e/workspace/codeblock/Restweb/include/cpprest/asyncrt_utils.h
+/mnt/e/workspace/Restweb/include/cpprest/asyncrt_utils.h
 cpprest/json.h
-/mnt/e/workspace/codeblock/Restweb/include/cpprest/json.h
+/mnt/e/workspace/Restweb/include/cpprest/json.h
 cpprest/filestream.h
-/mnt/e/workspace/codeblock/Restweb/include/cpprest/filestream.h
+/mnt/e/workspace/Restweb/include/cpprest/filestream.h
 cpprest/containerstream.h
-/mnt/e/workspace/codeblock/Restweb/include/cpprest/containerstream.h
+/mnt/e/workspace/Restweb/include/cpprest/containerstream.h
 cpprest/producerconsumerstream.h
-/mnt/e/workspace/codeblock/Restweb/include/cpprest/producerconsumerstream.h
+/mnt/e/workspace/Restweb/include/cpprest/producerconsumerstream.h
 locale
 -
 ctime
 -
 
-/mnt/e/workspace/codeblock/Restweb/main.cpp
+/mnt/e/workspace/Restweb/main.cpp
 iostream
 -
 include/stdafx.h
-/mnt/e/workspace/codeblock/Restweb/include/stdafx.h
+/mnt/e/workspace/Restweb/include/stdafx.h
 include/handler.h
-/mnt/e/workspace/codeblock/Restweb/include/handler.h
+/mnt/e/workspace/Restweb/include/handler.h
 
-/mnt/e/workspace/codeblock/Restweb/src/handler.cpp
+/mnt/e/workspace/Restweb/src/handler.cpp
 ../include/handler.h
-/mnt/e/workspace/codeblock/Restweb/include/handler.h
+/mnt/e/workspace/Restweb/include/handler.h
 

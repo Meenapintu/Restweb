@@ -1,1 +1,0 @@
-/usr/bin/c++      CMakeFiles/blackjackserver.dir/main.cpp.o CMakeFiles/blackjackserver.dir/src/handler.cpp.o  -o blackjackserver -lboost_system -lcrypto -lssl -lcpprest 
