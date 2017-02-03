@@ -40,6 +40,8 @@ void handler::handle_get(http_request message)
     auto paths = http::uri::split_path(http::uri::decode(message.relative_uri().path()));
 
     message.relative_uri().path();
+	//Dbms* d  = new Dbms();
+    //d->connect();
 
       concurrency::streams::fstream::open_istream(U("static/index.html"), std::ios::in).then([=](concurrency::streams::istream is)
     {

@@ -19,4 +19,32 @@ cmake .
 
 make
 
-{#dbms folder is a independent project right now to access database}
+run server 
+./Build/bin/restserver
+
+##############################################
+
+{#dbms folder is a independent project right now to access database before enable to install some prerequsites}
+1)
+ install postgresql;
+ install pqxx  (sudo apt-get install libpqxx-dev)
+ and libpq  if it is not installed with postgresql  ((sudo apt-get install libpq-dev)
+ 
+dbms support can be added ( right now  Postgresql only) by doing following steps 
+1) uncomment  line 5 of handler.h 
+
+>//#include "../dbms/include/Dbms.h"
+
+2) for testing uncomment line 43 and 44 of handler.cpp
+>	//Dbms* d  = new Dbms();
+>   //d->connect();
+ 
+How to complie :
+
+cmake . -DDBMS=ON
+make
+
+run server 
+./Build/bin/restserver
+ 
+now all done . just implement/replace own logic.

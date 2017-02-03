@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/restserver.dir/main.cpp.o"
   "CMakeFiles/restserver.dir/src/handler.cpp.o"
-  "restserver.pdb"
-  "restserver"
+  "Build/bin/restserver.pdb"
+  "Build/bin/restserver"
 )
 
 # Per-language clean rules from dependency scanning.
