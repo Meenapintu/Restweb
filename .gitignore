@@ -27,3 +27,14 @@
 *.exe
 *.out
 *.app
+
+#cmake
+CMakeCache.txt
+CMakeFiles/
+*.cmake
+Makefile
+
+#IDE-codeblock
+*.cbp
+*.layout
+

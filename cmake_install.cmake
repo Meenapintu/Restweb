@@ -1,4 +1,4 @@
-# Install script for directory: /mnt/e/workspace/Restweb
+# Install script for directory: /media/pintulalm/New Volume/workspace/Restweb
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/mnt/e/workspace/Restweb/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/media/pintulalm/New Volume/workspace/Restweb/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
