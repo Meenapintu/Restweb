@@ -1,3 +1,0 @@
-/media/pintulalm/New Volume/workspace/Restweb/CMakeFiles/rebuild_cache.dir
-/media/pintulalm/New Volume/workspace/Restweb/CMakeFiles/edit_cache.dir
-/media/pintulalm/New Volume/workspace/Restweb/CMakeFiles/restserver.dir
