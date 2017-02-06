@@ -1,3 +1,0 @@
-/mnt/e/workspace/codeblock/Restweb/dbms/CMakeFiles/edit_cache.dir
-/mnt/e/workspace/codeblock/Restweb/dbms/CMakeFiles/rebuild_cache.dir
-/mnt/e/workspace/codeblock/Restweb/dbms/CMakeFiles/dbms.dir
