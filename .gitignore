@@ -38,3 +38,5 @@ Makefile
 *.cbp
 *.layout
 
+#visual-studio-restsdkpackage
+packages
