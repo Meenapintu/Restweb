@@ -22,6 +22,12 @@ make
 run server 
 ./Build/bin/restserver
 
+
+[
+
+For Windows (Visual studio solution) (checkout vs15_v140 branch )
+
+]
 ##############################################
 
 {#dbms folder is a independent project right now to access database before enable to install some prerequsites}
