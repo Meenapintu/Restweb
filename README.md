@@ -19,6 +19,8 @@ first follow this tutorial
 with this project
 
 
-run by visual studio .
+build by visual studio .
+
+then run "Debug\restserver.exe" to run server  from Restweb folder location of cmd 
 
 then follow source code for more ...
