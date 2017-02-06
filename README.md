@@ -14,6 +14,11 @@ project structure
 
 [this is visual studio specific solution (visual studio 2015 (v140) )  [tested on windows 10]]
 
+first follow this tutorial 
+	https://github.com/Microsoft/cpprestsdk/wiki/How-to-use-the-C---Rest-SDK-NuGet-package
+with this project
+
+
 run by visual studio .
 
 then follow source code for more ...
