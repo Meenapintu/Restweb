@@ -48,7 +48,7 @@ int main(int argc, char *argv[])
         port = argv[1];
     }
 
-    utility::string_t address = U("http://localhost:");
+    utility::string_t address = U("http://127.0.0.1:");
     address.append(port);
 
     on_initialize(address);
