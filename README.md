@@ -22,6 +22,9 @@ make
 run server 
 ./Build/bin/restserver
 
+[
+For mac, mac branch is recommanded.
+]
 
 [
 
