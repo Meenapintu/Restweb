@@ -57,3 +57,7 @@ run server
 ./Build/bin/restserver
  
 now all done . just implement/replace own logic.
+
+# NEXT REVISION (In Implementation) 
+# 1) A Fast and lightweight websocket service with all rest feature, NoSql and Sql plugins with improved performance. 
+# 2) less dependecies  
