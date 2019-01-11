@@ -7,13 +7,54 @@
         body{
         background:#15161d;
         color:hsla(0,0%,100%,0.8);
+        text-align:center;
         }
+        
+        .button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
     </style>
     <body class="center" >
-        <h2  class="center" > Just a sample </h2>
+        <h2  class="center" > Just a Sample </h2>
         <h5  class="center">  developed by </h5>
-        <h1 class="center"> Pintu Lal M</h1>
+        <a  class="center" href="http://me.yehigo.com/?red=restcpp/"><h1> Pintu Meena</h1> </a>
         </br>
-        <a  class="center" href="https://www.cse.iitb.ac.in/~pin2lalmee12/">Pintu Lal M</a>
+        <a  class="button" style="vertical-align:middle" href="http://yehigo.com?we=restcpp/"><span>yehigo.com</span> </a>
     </body>
 </html>
