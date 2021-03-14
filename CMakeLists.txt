@@ -15,6 +15,10 @@ add_executable(restserver
   main.cpp
   src/handler.cpp
   )
+find_package(cpprest REQUIRED)
+find_package(ssl REQUIRED)
+find_package(boost_system REQUIRED)
+find_package(crypto REQUIRED)
 
 set(Casablanca_LIBRARIES "-lboost_system -lcrypto -lssl -lcpprest")
 set(LINKING_LIBRARIES ${Casablanca_LIBRARIES})
